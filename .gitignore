@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# PLY generated files
+parser.out
+parsetab.py
+
+# Generated analysis files
+*.token
+*.symbol
+*.record
+
+# System files
+.DS_Store
+Thumbs.db
