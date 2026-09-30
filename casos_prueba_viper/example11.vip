@@ -1,0 +1,46 @@
+type Point:{
+    float x, y
+    }
+
+type Circle:{
+    Point center
+    float radius
+    }
+
+Circle[2] balls
+
+# 1st ball
+balls[0].center.x = 0b101
+balls[0].center.y = 0xFF
+balls[0].radius = 1.74
+
+# 2nd ball
+balls[1].center.x = 10e-1
+balls[1].center.y = -31
+balls[1].radius = 3.2
+
+int i = 0
+while i < balls.len:{
+    balls[i].center.x = balls[i].center.x + 1
+    balls[i].center.y = balls[i].center.y + 2
+    i = i + 1
+    }   
+
+
+     
+def bool gte(int a, int b):{
+    return a > b
+    }
+
+'''
+Result should be
+equal to 'N', i.e. no
+'''
+
+char result
+if gte(balls[0].radius, balls[1].radius):{
+    result = 'Y'
+    }
+else:{
+    result = 'N'
+    }

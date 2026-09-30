@@ -1,0 +1,14 @@
+def float media(float a, float b):{
+    int x = 1
+    return 'h'     
+}
+
+int y = 4
+
+z = y + 1             
+
+bool cond = 5         
+
+if y:{                
+    return 0
+}

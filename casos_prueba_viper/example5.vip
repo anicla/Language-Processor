@@ -1,0 +1,16 @@
+def float media(float a, float b):{
+    return (a + b) / 2
+    }
+    
+
+def float evaluarNota(float nota1, float nota2):{
+    float promedio = media(nota1, nota2)
+    if promedio >= 5.0:{
+        return promedio 
+        }
+    else:{
+        return 0.0
+        }
+        
+    }
+        

@@ -1,0 +1,10 @@
+int a = 28              
+float b = 24.9          
+float x = 2.5           
+float y = x * b + 10.5  
+bool esMayor = a > b    
+char letra = 'Z'     
+
+int bin = 0b1010        
+int hex = 0xFF         
+int oct = 0o77     

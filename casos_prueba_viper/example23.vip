@@ -1,0 +1,31 @@
+'''Operaciones aritméticas y de comparación
+__________________________________________'''
+
+float f1, f2
+bool b1
+char c = 'h'  # char variable and its literal value
+
+f1 = 5 * 3 - 80 / 10      # this equals 7
+f2 = 10 / 5 * f1          # this equals 4
+b1 = 5 < 3                # this equals true
+
+# check whether a number is positive or not
+float num
+bool is_positive
+if num >= 0:
+    is_positive = true
+else:
+    is_positive = false
+
+# max calculation
+float a, b, c, _max
+a = 1
+b = 2
+c = 3
+if a >= b and a >= c:
+    _max = a
+else:
+    if b >= a and b >= c:
+        _max = b
+    else:
+        _max = c

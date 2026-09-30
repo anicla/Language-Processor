@@ -1,0 +1,27 @@
+type String:{
+    char[64] _
+    }
+
+type User:{
+    int user_id
+    String nickname
+    }
+
+int global_id = 0
+
+def User new_user(String nickname):{
+    User user
+    user.user_id = global_id
+    global_id = global_id + 1
+    user.nickname = nickname
+    return user
+    }
+
+String nickname
+nickname._[0] = 'V'
+nickname._[1] = 'i'
+nickname._[2] = 'p'
+nickname._[3] = 'e'
+nickname._[4] = 'r'
+
+new_user(nickname)

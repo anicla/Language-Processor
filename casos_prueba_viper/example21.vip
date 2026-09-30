@@ -1,0 +1,23 @@
+int a
+int b
+
+def int mod(int a, b):{
+    while a >= b:
+        a = a - b
+        
+
+    return a
+    }
+
+def int greatest_common_divisor(int a, b):{
+    int temp
+    while not b == 0:
+        temp = b
+        b = mod(a, b)
+        a = temp
+
+        
+    return a
+    }
+
+int result = greatest_common_divisor(132, 0xFF)

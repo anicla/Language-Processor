@@ -1,0 +1,3 @@
+int octal_mal1 = 0o8
+int octal_mal2 = 0o99
+int octal_mal3 = 0123

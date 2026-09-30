@@ -1,0 +1,2 @@
+mod input: int, output: int
+greatest_common_divisor input: int, output: int

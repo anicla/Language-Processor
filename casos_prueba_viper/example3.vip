@@ -1,0 +1,21 @@
+type Circle: {
+    float cx, cy, radius
+    char color
+}
+
+type Square: {
+    float side
+    char color
+}
+
+Circle c
+c.radius = 10.2
+c.color = 'R'
+float circle_area = 3.14 * c.radius * c.radius
+
+Square s
+s.side = 10.0
+s.color = 'B'
+float square_area = s.side * s.side
+
+bool square_is_bigger = square_area > circle_area

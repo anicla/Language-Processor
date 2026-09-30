@@ -1,0 +1,21 @@
+int[5] numeros
+numeros[0] = 3
+numeros[1] = numeros[0] * 4
+numeros[2] = numeros[1] + 10
+numeros[3] = (numeros[2] - 2) / 2
+
+int octal1 = 0o7    
+int octal2 = 0O77
+int octal3 = 0o123
+
+char letra = 'A'
+char numero = '7'
+char simbolo = '#'
+char espacio = ' '
+char comillaSimple = '\''
+char comillaDoble = '\"'
+char barra = '\\'
+char saltoLinea = '\n'
+char tabulador = '\t'
+char retorno = '\r'
+char nulo = '\0'

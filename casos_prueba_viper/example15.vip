@@ -1,0 +1,16 @@
+int[3] vector_3d
+vector_3d[0] = 5
+vector_3d[1] = 2
+vector_3d[2] = 1
+
+int array_length = vector_3d  # Es igual a 3
+vector_3d[1] = vector_3d[2] - 4
+
+type Point:{
+    float x, y
+    }
+
+Point[2] line
+line[1].x = 1
+line[1].y = 2
+'''(0,0) ----> (1,2)'''

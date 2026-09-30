@@ -1,0 +1,5 @@
+''' Chained assignments '''
+int a, b, c, d = 0
+a = c = d = 2 * 3
+# a, c y d son iguales a 6
+# b es igual a 0

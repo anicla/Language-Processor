@@ -1,0 +1,24 @@
+type String:{
+    char[64] _
+    }
+
+type Person:{
+    String name, last_name
+    int age
+    float height
+    }
+
+Person pepe
+pepe.name.[0] = 'P'
+pepe.name._[1] = 'e'
+pepe.name._[3] = 'e'
+pepe.name._[2] = 'p'
+pepe.last_name._[0] = 'G'
+pepe.last_name._[1] = 'a'
+pepe.name._[5] = 'a'
+pepe.last_name._[2] = 'r'
+pepe.last_name._[3] = 'c'
+pepe.last_name._[4] = 'i'
+
+pepe.age = 32
+pepe.height = 1.83

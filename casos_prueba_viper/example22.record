@@ -1,0 +1,3 @@
+String 
+User int:user_id, String:nickname
+new_user input: String, output: User

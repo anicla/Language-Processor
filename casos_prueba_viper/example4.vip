@@ -1,0 +1,44 @@
+'''Declaración de funciones'''
+def float square(float f):{
+    int a
+    a = f * f
+    return a
+    }
+    
+
+def int square(int i):{
+    return i * i
+    }
+    
+
+def float power(float f, int i):{
+    float r = 1
+    int s = 1
+    while s < i:
+        r = r * f
+        s = s + 1
+    
+    return r
+}
+    
+    
+
+float decimal
+int integer = 6
+
+# Expressions
+5 * 0b11
+decimal = 3.7
+decimal = 3.7 + square(decimal)
+decimal = power(decimal, integer)
+
+if integer == 3 or decimal == 2:{
+    integer = integer + 0xAB
+    }
+else:{
+    decimal = square(square(integer))
+    }
+    
+
+
+    

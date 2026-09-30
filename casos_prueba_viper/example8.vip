@@ -1,0 +1,4 @@
+def float media(float a, float b):{
+    return (a + b) / 2
+    }
+

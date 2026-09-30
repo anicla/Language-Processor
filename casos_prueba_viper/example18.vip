@@ -1,0 +1,11 @@
+float f1, f2
+int i
+bool b
+
+f1 = 7.5      # Ok: float -> float
+f2 = 0b11     # Ok: int -> float
+i = 'a'       # Ok: char -> int
+b = true      # Ok: bool -> bool
+
+i = 7.5       # Error: float -> int
+b = 7         # Error: int -> bool

@@ -1,0 +1,18 @@
+5.1 * 41.0       # Ok: real * real -> real
+char c = 'c' + 'c'   # Ok: char + char -> char
+int i = 1 + 'c'      # Ok: int + char -> int
+
+'''
+Ok: 1) 'c' * 8 -> char * int -> int
+    2) 7.5 + (1) -> float + int -> float
+'''
+float f1 = 7.5 + 'c' * 8
+
+'''
+Error: 1) 'd' -> char -> int (automatic conversion)
+       2) (1) < 8 -> int < int -> bool
+       3) 5.0 * (2) -> float * bool -> TYPE ERROR
+'''
+float err1 = 5.0 * ('d' < 8)
+
+

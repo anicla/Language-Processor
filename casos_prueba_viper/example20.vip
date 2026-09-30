@@ -1,0 +1,56 @@
+'''Declaración de variables y tipos'''
+type Vector2D:{
+    float x1, x2
+    }
+
+type Ball:{
+    Vector2D center
+    float radius
+    }
+
+type Word:{
+    char[10] s
+    }
+
+type Human:{
+    Word name, last_name_1, last_name_2
+    int age
+    }
+
+Ball ball
+Human student
+
+# Expressions
+ball.center.x1 = 0.0
+ball.center.x2 = 0.0
+ball.radius = 10.0
+
+student.name.s[0] = 'S'
+student.name.s[1] = 'a'
+student.name.s[2] = 'u'
+student.name.s[3] = 'l'
+
+student.last_name_1.s[0] = 'P'
+student.last_name_1.s[1] = 'e'
+student.last_name_1.s[2] = 'e'
+student.last_name_1.s[3] = 'r'
+student.last_name_1.s[4] = 'z'
+
+student.last_name_2.s[0] = 'G'
+student.last_name_2.s[1] = 'o'
+student.last_name_2.s[2] = 'm'
+student.last_name_2.s[3] = 'e'
+student.last_name_2.s[4] = 'z'
+
+student.age = 19
+
+# Conditional loop
+bool go = true
+while go and ball.radius > 0:
+    if ball.center.x1 < 0 and ball.center.x2 < 0:
+        go = false
+    else:
+        go = true
+        ball.radius = ball.radius / 2.0
+        ball.center.x1 = ball.center.x1 - 1
+        ball.center.x2 = ball.center.x2 - 1

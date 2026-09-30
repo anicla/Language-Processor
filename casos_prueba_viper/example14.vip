@@ -1,0 +1,5 @@
+bool var1, VAR1, Var1
+float var1  # Error: la re-declaración no está permitida
+
+VAR1 = false  # Ok: VAR1=(bool, false)
+VAR1 = true   # Ok: la reasignación sí está permitida

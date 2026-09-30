@@ -1,0 +1,8 @@
+int a
+float b
+float x
+float y
+bool esMayor
+char letra
+int bin
+int hex
