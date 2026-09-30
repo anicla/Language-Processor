@@ -1,3 +1,0 @@
-Point float:x, float:y
-Circle Point:center, float:radius
-gte input: int, int, output: bool

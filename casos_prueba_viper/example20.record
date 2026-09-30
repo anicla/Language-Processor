@@ -1,4 +1,0 @@
-Vector2D float:x1, float:x2
-Ball Vector2D:center, float:radius
-Word 
-Human Word:name, Word:last_name_1, Word:last_name_2, int:age
